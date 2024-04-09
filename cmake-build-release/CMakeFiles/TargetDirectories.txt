@@ -1,0 +1,8 @@
+C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/CMakeFiles/SilkroadLauncher.dir
+C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/CMakeFiles/rebuild_cache.dir
+C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/libs/CMakeFiles/edit_cache.dir
+C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/libs/CMakeFiles/rebuild_cache.dir
+C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/libs/JMX_Library/GFX/CMakeFiles/GFXFileManagerLIB.dir
+C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/libs/JMX_Library/GFX/CMakeFiles/edit_cache.dir
+C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/libs/JMX_Library/GFX/CMakeFiles/rebuild_cache.dir
