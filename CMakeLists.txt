@@ -38,7 +38,7 @@ set(GFX_HEADERS
         libs/JMX_Library/GFX/include/GFXFM/result_entry_t.h
         libs/JMX_Library/GFX/include/GFXFM/searchresult.h
         libs/JMX_Library/GFX/include/GFXFM/shit_t.h
-        Controls/ImgScrollBar.cpp Controls/ImgScrollBar.h Controls/ImgStaticWnd.cpp Controls/ImgStaticWnd.h)
+        Controls/ImgScrollBar.cpp Controls/ImgScrollBar.h Controls/ImgStaticWnd.cpp Controls/ImgStaticWnd.h Controls/DlgHoverButton.cpp Controls/DlgHoverButton.h afxmsg_custom.h AfxStringMgr.cpp AfxStringMgr.h)
 
 # Add the main library
 add_library(SilkroadLauncher SHARED ${SR_SOURCES} ${GFX_SOURCES} ${GFX_HEADERS})

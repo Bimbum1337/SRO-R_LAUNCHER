@@ -5,7 +5,7 @@
 #include "ImgStaticWnd.h"
 #include "../BSClientDlg.h"
 
-BEGIN_MESSAGE_MAP(CImgStaticWnd, CComboBox)
+BEGIN_MESSAGE_MAP(CImgStaticWnd, CStatic)
                     ON_WM_PAINT()
 END_MESSAGE_MAP()
 

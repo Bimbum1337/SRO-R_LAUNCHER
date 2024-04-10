@@ -7,6 +7,7 @@
 #include "TextStringManager.h"
 #include "DivisonManager.h"
 #include "ImgStaticWnd.h"
+#include "DlgHoverButton.h"
 
 enum {
     IDR_HTML_DIALOG = 199,
@@ -265,4 +266,13 @@ void CBSClientDlg::AfterInitDialog() {
 
     pImgStaticWnd->Create("", WS_CHILD | WS_VISIBLE, CRect(50, 10, 100,  20),  this, 1337);
     pImgStaticWnd->SetData("Bimbular", "");
+
+    CDlgHoverButton* pButton = new CDlgHoverButton();
+    pButton->Create("", WS_CHILD | WS_VISIBLE |
+                        BS_OWNERDRAW , CRect(0, 0, 168,  30),  this, 1338);
+    pButton->SetImage("\\Launcher\\start.dat", 0, 0, 3);
+}
+
+void CBSClientDlg::DoDataExchange_IMPL(CDataExchange* pDX) {
+    reinterpret_cast<void (__thiscall *)(CBSClientDlg *, CDataExchange*)>(0x4334F0)(this, pDX);
 }

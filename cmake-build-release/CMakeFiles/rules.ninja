@@ -65,7 +65,7 @@ rule CXX_STATIC_LIBRARY_LINKER__GFXFileManagerLIB_Release
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\maximus\Desktop\ISRO-R PROJECT\SilkroadLauncher" -B"C:\Users\maximus\Desktop\ISRO-R PROJECT\SilkroadLauncher\cmake-build-release"
+  command = "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\maximus\Desktop\SilkroadLauncher -BC:\Users\maximus\Desktop\SilkroadLauncher\cmake-build-release
   description = Re-running CMake...
   generator = 1
 

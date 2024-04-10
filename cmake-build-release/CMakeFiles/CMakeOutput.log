@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio 8/VC/bin/cl.exe 
@@ -45,30 +45,21 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ezwdp5
+Change Dir: C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-j3zni5
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe cmTC_459e7 && [1/2] Building C object CMakeFiles\cmTC_459e7.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_459e7.exe
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe cmTC_2958c && [1/2] Building C object CMakeFiles\cmTC_2958c.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_2958c.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-b9kb5b
+Change Dir: C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-f1qbvh
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe cmTC_a61f6 && [1/2] Building CXX object CMakeFiles\cmTC_a61f6.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_a61f6.exe
-
-
-
-Determining if MFC exists passed with the following output:
-Change Dir: C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bu32tu
-
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe cmTC_73ae6 && [1/2] Building CXX object CMakeFiles\cmTC_73ae6.dir\CheckIncludeFile.cxx.obj
- WINVER not defined. Defaulting to 0x0502 (Windows Server 2003)
-[2/2] Linking CXX executable cmTC_73ae6.exe
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe cmTC_3fff0 && [1/2] Building CXX object CMakeFiles\cmTC_3fff0.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_3fff0.exe
 
 
 

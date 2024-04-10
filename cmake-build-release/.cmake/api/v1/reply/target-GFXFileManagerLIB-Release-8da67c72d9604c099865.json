@@ -66,11 +66,11 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/libs/JMX_Library/GFX/include"
+					"path" : "C:/Users/maximus/Desktop/SilkroadLauncher/libs/JMX_Library/GFX/include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/libs/JMX_Library/GFX/include/GFXFM"
+					"path" : "C:/Users/maximus/Desktop/SilkroadLauncher/libs/JMX_Library/GFX/include/GFXFM"
 				}
 			],
 			"language" : "CXX",

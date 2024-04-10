@@ -17,4 +17,7 @@ void Setup() {
 
     ///\ On Create Windows
     vftableHook(0x0049FC1C, 82, addr_from_this(&CBSClientDlg::OnInitDialog_IMPL));
+
+    ///\ Data exchance
+    vftableHook(0x0049FC1C, 61, addr_from_this(&CBSClientDlg::DoDataExchange_IMPL));
 }

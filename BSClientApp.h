@@ -26,10 +26,11 @@ enum E_LANGUAGES : int {
 #define LANGUAGE (*(E_LANGUAGES *) 0x004C60B0)
 #define g_btDivision (*(BYTE *) ((int) 0x004C607D))
 
-
 #define GET_CLIENT_RECT(rect, ...) \
     reinterpret_cast<RECT& (*)(RECT&, ...)>(0x044A240)(rect, __VA_ARGS__); \
 
+#define GET_CLIENT_LINK(str, ...) \
+    reinterpret_cast<void (*)(std::string&, ...)>(0x044A2C0)(rect, __VA_ARGS__); \
 
 class CBSClientApp : CWinApp {
 public:

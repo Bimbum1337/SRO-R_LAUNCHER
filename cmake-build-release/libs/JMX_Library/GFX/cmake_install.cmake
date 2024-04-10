@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/libs/JMX_Library/GFX
+# Install script for directory: C:/Users/maximus/Desktop/SilkroadLauncher/libs/JMX_Library/GFX
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

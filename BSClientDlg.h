@@ -54,6 +54,9 @@ public:
     /// \address 0043A0E0
     bool VerifyConnection();
 
+    /// \address 004334F0
+    void DoDataExchange_IMPL(CDataExchange* pDX);
+
     void AfterInitDialog();
 public:
     char pad_0074[0x420]; //0x0074

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/libs
+# Install script for directory: C:/Users/maximus/Desktop/SilkroadLauncher/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/libs/JMX_Library/GFX/cmake_install.cmake")
+  include("C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/libs/JMX_Library/GFX/cmake_install.cmake")
 endif()
 

@@ -76,14 +76,14 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "GFXFileManagerLIB::@e16630b743614526d715",
-					"jsonFile" : "target-GFXFileManagerLIB-Release-1afac086c21f8758d0c2.json",
+					"jsonFile" : "target-GFXFileManagerLIB-Release-8da67c72d9604c099865.json",
 					"name" : "GFXFileManagerLIB",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "SilkroadLauncher::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SilkroadLauncher-Release-2ee43f19d82ab873ead0.json",
+					"jsonFile" : "target-SilkroadLauncher-Release-66a5cd0928b8418cbc3f.json",
 					"name" : "SilkroadLauncher",
 					"projectIndex" : 0
 				}
@@ -93,8 +93,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release",
-		"source" : "C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher"
+		"build" : "C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release",
+		"source" : "C:/Users/maximus/Desktop/SilkroadLauncher"
 	},
 	"version" : 
 	{

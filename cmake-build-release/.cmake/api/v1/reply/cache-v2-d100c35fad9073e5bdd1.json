@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release"
+			"value" : "c:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher"
+			"value" : "C:/Users/maximus/Desktop/SilkroadLauncher"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1078,18 +1078,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "MFC_HAVE_MFC",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Have MFC?"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
 			"name" : "SilkroadLauncher_BINARY_DIR",
 			"properties" : 
 			[
@@ -1099,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher/cmake-build-release"
+			"value" : "C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release"
 		},
 		{
 			"name" : "SilkroadLauncher_IS_TOP_LEVEL",
@@ -1123,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/maximus/Desktop/ISRO-R PROJECT/SilkroadLauncher"
+			"value" : "C:/Users/maximus/Desktop/SilkroadLauncher"
 		}
 	],
 	"kind" : "cache",
