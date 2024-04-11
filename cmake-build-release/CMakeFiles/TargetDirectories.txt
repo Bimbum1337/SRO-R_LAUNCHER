@@ -6,3 +6,6 @@ C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/libs/CMakeFiles/re
 C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/libs/JMX_Library/GFX/CMakeFiles/GFXFileManagerLIB.dir
 C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/libs/JMX_Library/GFX/CMakeFiles/edit_cache.dir
 C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/libs/JMX_Library/GFX/CMakeFiles/rebuild_cache.dir
+C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/libs/ClientNet/CMakeFiles/ClientNet.dir
+C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/libs/ClientNet/CMakeFiles/edit_cache.dir
+C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/libs/ClientNet/CMakeFiles/rebuild_cache.dir

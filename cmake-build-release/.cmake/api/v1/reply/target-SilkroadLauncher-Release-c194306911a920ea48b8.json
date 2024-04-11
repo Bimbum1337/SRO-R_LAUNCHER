@@ -17,6 +17,7 @@
 		"commands" : 
 		[
 			"add_library",
+			"target_link_libraries",
 			"target_include_directories"
 		],
 		"files" : 
@@ -37,7 +38,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 52,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 54,
 				"parent" : 0
 			}
 		]
@@ -60,24 +67,28 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"path" : "C:/Users/maximus/Desktop/SilkroadLauncher/memory"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"path" : "C:/Users/maximus/Desktop/SilkroadLauncher/Controls"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"path" : "C:/Users/maximus/Desktop/SilkroadLauncher/TextStringManager"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"path" : "C:/Users/maximus/Desktop/SilkroadLauncher/DivisonManager"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"path" : "C:/Users/maximus/Desktop/SilkroadLauncher/libs/JMX_Library/GFX/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/maximus/Desktop/SilkroadLauncher/libs/ClientNet/src"
 				}
 			],
 			"language" : "CXX",
@@ -108,6 +119,13 @@
 			]
 		}
 	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "ClientNet::@1c427f65416e4039dbb1"
+		}
+	],
 	"id" : "SilkroadLauncher::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
@@ -116,6 +134,11 @@
 			{
 				"fragment" : "/machine:X86 /INCREMENTAL:NO",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libs\\ClientNet\\ClientNet.lib",
+				"role" : "libraries"
 			},
 			{
 				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",

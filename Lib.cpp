@@ -6,6 +6,8 @@
 #include "Lib.h"
 #include "hook.h"
 #include "BSClientDlg.h"
+#include "ClientNet/NetEngine.h"
+#include "ClientNet/Msg.h"
 
 void Setup() {
     AllocConsole();
@@ -18,6 +20,9 @@ void Setup() {
     ///\ On Create Windows
     vftableHook(0x0049FC1C, 82, addr_from_this(&CBSClientDlg::OnInitDialog_IMPL));
 
-    ///\ Data exchance
+    ///\ Data exchange
     vftableHook(0x0049FC1C, 61, addr_from_this(&CBSClientDlg::DoDataExchange_IMPL));
+
+    ///\ Log Sent Packets
+    vftableHook(0x004A9DDC, 20, addr_from_this(&CNetEngine::OnSendMessage_IMPL));
 }

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/maximus/Desktop/SilkroadLauncher/libs
+# Install script for directory: C:/Users/maximus/Desktop/SilkroadLauncher/libs/ClientNet
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -30,15 +30,5 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/libs/JMX_Library/GFX/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/libs/ClientNet/cmake_install.cmake")
 endif()
 

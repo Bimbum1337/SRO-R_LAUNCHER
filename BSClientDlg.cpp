@@ -264,12 +264,12 @@ void CBSClientDlg::AfterInitDialog() {
 
     CImgStaticWnd* pImgStaticWnd = new CImgStaticWnd();
 
-    pImgStaticWnd->Create("", WS_CHILD | WS_VISIBLE, CRect(50, 10, 100,  20),  this, 1337);
-    pImgStaticWnd->SetData("Bimbular", "");
+    pImgStaticWnd->Create("", WS_CHILD | WS_VISIBLE, CRect(10, 100, 10 + 100,  100 + 20),  this, 1337);
+    pImgStaticWnd->SetData("Test Controls", "");
 
     CDlgHoverButton* pButton = new CDlgHoverButton();
     pButton->Create("", WS_CHILD | WS_VISIBLE |
-                        BS_OWNERDRAW , CRect(0, 0, 168,  30),  this, 1338);
+                        BS_OWNERDRAW , CRect(10, 130, 10 + 168,  130 + 30),  this, 1338);
     pButton->SetImage("\\Launcher\\start.dat", 0, 0, 3);
 }
 

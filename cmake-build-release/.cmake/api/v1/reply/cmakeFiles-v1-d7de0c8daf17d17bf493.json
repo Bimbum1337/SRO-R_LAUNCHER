@@ -140,6 +140,9 @@
 		},
 		{
 			"path" : "libs/JMX_Library/GFX/CMakeLists.txt"
+		},
+		{
+			"path" : "libs/ClientNet/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

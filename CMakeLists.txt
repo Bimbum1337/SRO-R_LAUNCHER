@@ -48,6 +48,8 @@ set_target_properties(SilkroadLauncher PROPERTIES
         LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin
         )
 
+target_link_libraries(SilkroadLauncher PUBLIC ClientNet)
+
 # Include directories
 target_include_directories(SilkroadLauncher
         PUBLIC

@@ -19,14 +19,15 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
 					"build" : "libs",
 					"childIndexes" : 
 					[
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-libs-Release-dd7a5ca29a7a50124f40.json",
 					"minimumCMakeVersion" : 
@@ -49,6 +50,21 @@
 					"source" : "libs/JMX_Library/GFX",
 					"targetIndexes" : 
 					[
+						1
+					]
+				},
+				{
+					"build" : "libs/ClientNet",
+					"jsonFile" : "directory-libs.ClientNet-Release-bbf5431925327e363d15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libs/ClientNet",
+					"targetIndexes" : 
+					[
 						0
 					]
 				}
@@ -61,18 +77,27 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "SilkroadLauncher",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 3,
+					"id" : "ClientNet::@1c427f65416e4039dbb1",
+					"jsonFile" : "target-ClientNet-Release-e800bfc7bbbb27ca9d63.json",
+					"name" : "ClientNet",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 2,
 					"id" : "GFXFileManagerLIB::@e16630b743614526d715",
@@ -83,7 +108,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SilkroadLauncher::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SilkroadLauncher-Release-66a5cd0928b8418cbc3f.json",
+					"jsonFile" : "target-SilkroadLauncher-Release-c194306911a920ea48b8.json",
 					"name" : "SilkroadLauncher",
 					"projectIndex" : 0
 				}

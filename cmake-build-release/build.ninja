@@ -47,12 +47,12 @@ cmake_ninja_workdir = C$:\Users\maximus\Desktop\SilkroadLauncher\cmake-build-rel
 #############################################
 # Order-only phony target for SilkroadLauncher
 
-build cmake_object_order_depends_target_SilkroadLauncher: phony || CMakeFiles\SilkroadLauncher.dir
+build cmake_object_order_depends_target_SilkroadLauncher: phony || cmake_object_order_depends_target_ClientNet
 
 build CMakeFiles\SilkroadLauncher.dir\DLLMain.cpp.obj: CXX_COMPILER__SilkroadLauncher_Release C$:\Users\maximus\Desktop\SilkroadLauncher\DLLMain.cpp || cmake_object_order_depends_target_SilkroadLauncher
   DEFINES = -DSilkroadLauncher_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
-  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\SilkroadLauncher.dir
   TARGET_COMPILE_PDB = CMakeFiles\SilkroadLauncher.dir\
@@ -61,7 +61,7 @@ build CMakeFiles\SilkroadLauncher.dir\DLLMain.cpp.obj: CXX_COMPILER__SilkroadLau
 build CMakeFiles\SilkroadLauncher.dir\Lib.cpp.obj: CXX_COMPILER__SilkroadLauncher_Release C$:\Users\maximus\Desktop\SilkroadLauncher\Lib.cpp || cmake_object_order_depends_target_SilkroadLauncher
   DEFINES = -DSilkroadLauncher_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
-  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\SilkroadLauncher.dir
   TARGET_COMPILE_PDB = CMakeFiles\SilkroadLauncher.dir\
@@ -70,7 +70,7 @@ build CMakeFiles\SilkroadLauncher.dir\Lib.cpp.obj: CXX_COMPILER__SilkroadLaunche
 build CMakeFiles\SilkroadLauncher.dir\memory\hook.cpp.obj: CXX_COMPILER__SilkroadLauncher_Release C$:\Users\maximus\Desktop\SilkroadLauncher\memory\hook.cpp || cmake_object_order_depends_target_SilkroadLauncher
   DEFINES = -DSilkroadLauncher_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
-  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\SilkroadLauncher.dir\memory
   TARGET_COMPILE_PDB = CMakeFiles\SilkroadLauncher.dir\
@@ -79,7 +79,7 @@ build CMakeFiles\SilkroadLauncher.dir\memory\hook.cpp.obj: CXX_COMPILER__Silkroa
 build CMakeFiles\SilkroadLauncher.dir\BSClientDlg.cpp.obj: CXX_COMPILER__SilkroadLauncher_Release C$:\Users\maximus\Desktop\SilkroadLauncher\BSClientDlg.cpp || cmake_object_order_depends_target_SilkroadLauncher
   DEFINES = -DSilkroadLauncher_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
-  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\SilkroadLauncher.dir
   TARGET_COMPILE_PDB = CMakeFiles\SilkroadLauncher.dir\
@@ -88,7 +88,7 @@ build CMakeFiles\SilkroadLauncher.dir\BSClientDlg.cpp.obj: CXX_COMPILER__Silkroa
 build CMakeFiles\SilkroadLauncher.dir\BSClientApp.cpp.obj: CXX_COMPILER__SilkroadLauncher_Release C$:\Users\maximus\Desktop\SilkroadLauncher\BSClientApp.cpp || cmake_object_order_depends_target_SilkroadLauncher
   DEFINES = -DSilkroadLauncher_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
-  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\SilkroadLauncher.dir
   TARGET_COMPILE_PDB = CMakeFiles\SilkroadLauncher.dir\
@@ -97,7 +97,7 @@ build CMakeFiles\SilkroadLauncher.dir\BSClientApp.cpp.obj: CXX_COMPILER__Silkroa
 build CMakeFiles\SilkroadLauncher.dir\Controls\Agreement.cpp.obj: CXX_COMPILER__SilkroadLauncher_Release C$:\Users\maximus\Desktop\SilkroadLauncher\Controls\Agreement.cpp || cmake_object_order_depends_target_SilkroadLauncher
   DEFINES = -DSilkroadLauncher_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
-  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\SilkroadLauncher.dir\Controls
   TARGET_COMPILE_PDB = CMakeFiles\SilkroadLauncher.dir\
@@ -106,7 +106,7 @@ build CMakeFiles\SilkroadLauncher.dir\Controls\Agreement.cpp.obj: CXX_COMPILER__
 build CMakeFiles\SilkroadLauncher.dir\TextStringManager.cpp.obj: CXX_COMPILER__SilkroadLauncher_Release C$:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager.cpp || cmake_object_order_depends_target_SilkroadLauncher
   DEFINES = -DSilkroadLauncher_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
-  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\SilkroadLauncher.dir
   TARGET_COMPILE_PDB = CMakeFiles\SilkroadLauncher.dir\
@@ -115,7 +115,7 @@ build CMakeFiles\SilkroadLauncher.dir\TextStringManager.cpp.obj: CXX_COMPILER__S
 build CMakeFiles\SilkroadLauncher.dir\DivisonManager.cpp.obj: CXX_COMPILER__SilkroadLauncher_Release C$:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager.cpp || cmake_object_order_depends_target_SilkroadLauncher
   DEFINES = -DSilkroadLauncher_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
-  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\SilkroadLauncher.dir
   TARGET_COMPILE_PDB = CMakeFiles\SilkroadLauncher.dir\
@@ -124,7 +124,7 @@ build CMakeFiles\SilkroadLauncher.dir\DivisonManager.cpp.obj: CXX_COMPILER__Silk
 build CMakeFiles\SilkroadLauncher.dir\Controls\DivisionWindow.cpp.obj: CXX_COMPILER__SilkroadLauncher_Release C$:\Users\maximus\Desktop\SilkroadLauncher\Controls\DivisionWindow.cpp || cmake_object_order_depends_target_SilkroadLauncher
   DEFINES = -DSilkroadLauncher_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
-  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\SilkroadLauncher.dir\Controls
   TARGET_COMPILE_PDB = CMakeFiles\SilkroadLauncher.dir\
@@ -133,7 +133,7 @@ build CMakeFiles\SilkroadLauncher.dir\Controls\DivisionWindow.cpp.obj: CXX_COMPI
 build CMakeFiles\SilkroadLauncher.dir\libs\JMX_Library\GFX\src\IFileManager.cpp.obj: CXX_COMPILER__SilkroadLauncher_Release C$:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\src\IFileManager.cpp || cmake_object_order_depends_target_SilkroadLauncher
   DEFINES = -DSilkroadLauncher_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
-  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\SilkroadLauncher.dir\libs\JMX_Library\GFX\src
   TARGET_COMPILE_PDB = CMakeFiles\SilkroadLauncher.dir\
@@ -142,7 +142,7 @@ build CMakeFiles\SilkroadLauncher.dir\libs\JMX_Library\GFX\src\IFileManager.cpp.
 build CMakeFiles\SilkroadLauncher.dir\Controls\ImgScrollBar.cpp.obj: CXX_COMPILER__SilkroadLauncher_Release C$:\Users\maximus\Desktop\SilkroadLauncher\Controls\ImgScrollBar.cpp || cmake_object_order_depends_target_SilkroadLauncher
   DEFINES = -DSilkroadLauncher_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
-  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\SilkroadLauncher.dir\Controls
   TARGET_COMPILE_PDB = CMakeFiles\SilkroadLauncher.dir\
@@ -151,7 +151,7 @@ build CMakeFiles\SilkroadLauncher.dir\Controls\ImgScrollBar.cpp.obj: CXX_COMPILE
 build CMakeFiles\SilkroadLauncher.dir\Controls\ImgStaticWnd.cpp.obj: CXX_COMPILER__SilkroadLauncher_Release C$:\Users\maximus\Desktop\SilkroadLauncher\Controls\ImgStaticWnd.cpp || cmake_object_order_depends_target_SilkroadLauncher
   DEFINES = -DSilkroadLauncher_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
-  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\SilkroadLauncher.dir\Controls
   TARGET_COMPILE_PDB = CMakeFiles\SilkroadLauncher.dir\
@@ -160,7 +160,7 @@ build CMakeFiles\SilkroadLauncher.dir\Controls\ImgStaticWnd.cpp.obj: CXX_COMPILE
 build CMakeFiles\SilkroadLauncher.dir\Controls\DlgHoverButton.cpp.obj: CXX_COMPILER__SilkroadLauncher_Release C$:\Users\maximus\Desktop\SilkroadLauncher\Controls\DlgHoverButton.cpp || cmake_object_order_depends_target_SilkroadLauncher
   DEFINES = -DSilkroadLauncher_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
-  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\SilkroadLauncher.dir\Controls
   TARGET_COMPILE_PDB = CMakeFiles\SilkroadLauncher.dir\
@@ -169,7 +169,7 @@ build CMakeFiles\SilkroadLauncher.dir\Controls\DlgHoverButton.cpp.obj: CXX_COMPI
 build CMakeFiles\SilkroadLauncher.dir\AfxStringMgr.cpp.obj: CXX_COMPILER__SilkroadLauncher_Release C$:\Users\maximus\Desktop\SilkroadLauncher\AfxStringMgr.cpp || cmake_object_order_depends_target_SilkroadLauncher
   DEFINES = -DSilkroadLauncher_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
-  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\memory -IC:\Users\maximus\Desktop\SilkroadLauncher\Controls -IC:\Users\maximus\Desktop\SilkroadLauncher\TextStringManager -IC:\Users\maximus\Desktop\SilkroadLauncher\DivisonManager -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\include -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\SilkroadLauncher.dir
   TARGET_COMPILE_PDB = CMakeFiles\SilkroadLauncher.dir\
@@ -183,10 +183,10 @@ build CMakeFiles\SilkroadLauncher.dir\AfxStringMgr.cpp.obj: CXX_COMPILER__Silkro
 #############################################
 # Link the shared library SilkroadLauncher.dll
 
-build SilkroadLauncher.dll SilkroadLauncher.lib: CXX_SHARED_LIBRARY_LINKER__SilkroadLauncher_Release CMakeFiles\SilkroadLauncher.dir\DLLMain.cpp.obj CMakeFiles\SilkroadLauncher.dir\Lib.cpp.obj CMakeFiles\SilkroadLauncher.dir\memory\hook.cpp.obj CMakeFiles\SilkroadLauncher.dir\BSClientDlg.cpp.obj CMakeFiles\SilkroadLauncher.dir\BSClientApp.cpp.obj CMakeFiles\SilkroadLauncher.dir\Controls\Agreement.cpp.obj CMakeFiles\SilkroadLauncher.dir\TextStringManager.cpp.obj CMakeFiles\SilkroadLauncher.dir\DivisonManager.cpp.obj CMakeFiles\SilkroadLauncher.dir\Controls\DivisionWindow.cpp.obj CMakeFiles\SilkroadLauncher.dir\libs\JMX_Library\GFX\src\IFileManager.cpp.obj CMakeFiles\SilkroadLauncher.dir\Controls\ImgScrollBar.cpp.obj CMakeFiles\SilkroadLauncher.dir\Controls\ImgStaticWnd.cpp.obj CMakeFiles\SilkroadLauncher.dir\Controls\DlgHoverButton.cpp.obj CMakeFiles\SilkroadLauncher.dir\AfxStringMgr.cpp.obj
+build SilkroadLauncher.dll SilkroadLauncher.lib: CXX_SHARED_LIBRARY_LINKER__SilkroadLauncher_Release CMakeFiles\SilkroadLauncher.dir\DLLMain.cpp.obj CMakeFiles\SilkroadLauncher.dir\Lib.cpp.obj CMakeFiles\SilkroadLauncher.dir\memory\hook.cpp.obj CMakeFiles\SilkroadLauncher.dir\BSClientDlg.cpp.obj CMakeFiles\SilkroadLauncher.dir\BSClientApp.cpp.obj CMakeFiles\SilkroadLauncher.dir\Controls\Agreement.cpp.obj CMakeFiles\SilkroadLauncher.dir\TextStringManager.cpp.obj CMakeFiles\SilkroadLauncher.dir\DivisonManager.cpp.obj CMakeFiles\SilkroadLauncher.dir\Controls\DivisionWindow.cpp.obj CMakeFiles\SilkroadLauncher.dir\libs\JMX_Library\GFX\src\IFileManager.cpp.obj CMakeFiles\SilkroadLauncher.dir\Controls\ImgScrollBar.cpp.obj CMakeFiles\SilkroadLauncher.dir\Controls\ImgStaticWnd.cpp.obj CMakeFiles\SilkroadLauncher.dir\Controls\DlgHoverButton.cpp.obj CMakeFiles\SilkroadLauncher.dir\AfxStringMgr.cpp.obj | libs\ClientNet\ClientNet.lib || libs\ClientNet\ClientNet.lib
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
   LINK_FLAGS = /machine:X86 /INCREMENTAL:NO
-  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = libs\ClientNet\ClientNet.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\SilkroadLauncher.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -311,7 +311,90 @@ build libs\JMX_Library\GFX\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
 build libs\JMX_Library\GFX\rebuild_cache: phony libs\JMX_Library\GFX\CMakeFiles\rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/maximus/Desktop/SilkroadLauncher/libs/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target ClientNet
+
+
+#############################################
+# Order-only phony target for ClientNet
+
+build cmake_object_order_depends_target_ClientNet: phony || libs\ClientNet\CMakeFiles\ClientNet.dir
+
+build libs\ClientNet\CMakeFiles\ClientNet.dir\src\ClientNet\Msg.cpp.obj: CXX_COMPILER__ClientNet_Release C$:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src\ClientNet\Msg.cpp || cmake_object_order_depends_target_ClientNet
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
+  OBJECT_DIR = libs\ClientNet\CMakeFiles\ClientNet.dir
+  OBJECT_FILE_DIR = libs\ClientNet\CMakeFiles\ClientNet.dir\src\ClientNet
+  TARGET_COMPILE_PDB = libs\ClientNet\CMakeFiles\ClientNet.dir\ClientNet.pdb
+  TARGET_PDB = libs\ClientNet\ClientNet.pdb
+
+build libs\ClientNet\CMakeFiles\ClientNet.dir\src\ClientNet\NetEngine.cpp.obj: CXX_COMPILER__ClientNet_Release C$:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src\ClientNet\NetEngine.cpp || cmake_object_order_depends_target_ClientNet
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
+  OBJECT_DIR = libs\ClientNet\CMakeFiles\ClientNet.dir
+  OBJECT_FILE_DIR = libs\ClientNet\CMakeFiles\ClientNet.dir\src\ClientNet
+  TARGET_COMPILE_PDB = libs\ClientNet\CMakeFiles\ClientNet.dir\ClientNet.pdb
+  TARGET_PDB = libs\ClientNet\ClientNet.pdb
+
+build libs\ClientNet\CMakeFiles\ClientNet.dir\src\ClientNet\ClientNet.cpp.obj: CXX_COMPILER__ClientNet_Release C$:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src\ClientNet\ClientNet.cpp || cmake_object_order_depends_target_ClientNet
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
+  INCLUDES = -IC:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\src
+  OBJECT_DIR = libs\ClientNet\CMakeFiles\ClientNet.dir
+  OBJECT_FILE_DIR = libs\ClientNet\CMakeFiles\ClientNet.dir\src\ClientNet
+  TARGET_COMPILE_PDB = libs\ClientNet\CMakeFiles\ClientNet.dir\ClientNet.pdb
+  TARGET_PDB = libs\ClientNet\ClientNet.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target ClientNet
+
+
+#############################################
+# Link the static library libs\ClientNet\ClientNet.lib
+
+build libs\ClientNet\ClientNet.lib: CXX_STATIC_LIBRARY_LINKER__ClientNet_Release libs\ClientNet\CMakeFiles\ClientNet.dir\src\ClientNet\Msg.cpp.obj libs\ClientNet\CMakeFiles\ClientNet.dir\src\ClientNet\NetEngine.cpp.obj libs\ClientNet\CMakeFiles\ClientNet.dir\src\ClientNet\ClientNet.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
+  LINK_FLAGS = /machine:X86
+  OBJECT_DIR = libs\ClientNet\CMakeFiles\ClientNet.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = libs\ClientNet\CMakeFiles\ClientNet.dir\ClientNet.pdb
+  TARGET_FILE = libs\ClientNet\ClientNet.lib
+  TARGET_PDB = libs\ClientNet\ClientNet.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build libs\ClientNet\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\maximus\Desktop\SilkroadLauncher\cmake-build-release\libs\ClientNet && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build libs\ClientNet\edit_cache: phony libs\ClientNet\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build libs\ClientNet\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\maximus\Desktop\SilkroadLauncher\cmake-build-release\libs\ClientNet && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\maximus\Desktop\SilkroadLauncher -BC:\Users\maximus\Desktop\SilkroadLauncher\cmake-build-release"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build libs\ClientNet\rebuild_cache: phony libs\ClientNet\CMakeFiles\rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build ClientNet: phony libs\ClientNet\ClientNet.lib
+
+build ClientNet.lib: phony libs\ClientNet\ClientNet.lib
 
 build GFXFileManagerLIB: phony libs\JMX_Library\GFX\GFXFileManagerLIB.lib
 
@@ -334,7 +417,14 @@ build all: phony SilkroadLauncher.dll libs\all
 #############################################
 # Folder: C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/libs
 
-build libs\all: phony libs\JMX_Library\GFX\all
+build libs\all: phony libs\JMX_Library\GFX\all libs\ClientNet\all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/maximus/Desktop/SilkroadLauncher/cmake-build-release/libs/ClientNet
+
+build libs\ClientNet\all: phony libs\ClientNet\ClientNet.lib
 
 # =============================================================================
 
@@ -350,14 +440,14 @@ build libs\JMX_Library\GFX\all: phony libs\JMX_Library\GFX\GFXFileManagerLIB.lib
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake C$:\Users\maximus\Desktop\SilkroadLauncher\CMakeLists.txt C$:\Users\maximus\Desktop\SilkroadLauncher\libs\CMakeLists.txt C$:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\CMakeLists.txt CMakeCache.txt CMakeFiles\3.25.2\CMakeCCompiler.cmake CMakeFiles\3.25.2\CMakeCXXCompiler.cmake CMakeFiles\3.25.2\CMakeRCCompiler.cmake CMakeFiles\3.25.2\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake C$:\Users\maximus\Desktop\SilkroadLauncher\CMakeLists.txt C$:\Users\maximus\Desktop\SilkroadLauncher\libs\CMakeLists.txt C$:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\CMakeLists.txt C$:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\CMakeLists.txt CMakeCache.txt CMakeFiles\3.25.2\CMakeCCompiler.cmake CMakeFiles\3.25.2\CMakeCXXCompiler.cmake CMakeFiles\3.25.2\CMakeRCCompiler.cmake CMakeFiles\3.25.2\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake C$:\Users\maximus\Desktop\SilkroadLauncher\CMakeLists.txt C$:\Users\maximus\Desktop\SilkroadLauncher\libs\CMakeLists.txt C$:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\CMakeLists.txt CMakeCache.txt CMakeFiles\3.25.2\CMakeCCompiler.cmake CMakeFiles\3.25.2\CMakeCXXCompiler.cmake CMakeFiles\3.25.2\CMakeRCCompiler.cmake CMakeFiles\3.25.2\CMakeSystem.cmake: phony
+build C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2022.2.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake C$:\Users\maximus\Desktop\SilkroadLauncher\CMakeLists.txt C$:\Users\maximus\Desktop\SilkroadLauncher\libs\CMakeLists.txt C$:\Users\maximus\Desktop\SilkroadLauncher\libs\ClientNet\CMakeLists.txt C$:\Users\maximus\Desktop\SilkroadLauncher\libs\JMX_Library\GFX\CMakeLists.txt CMakeCache.txt CMakeFiles\3.25.2\CMakeCCompiler.cmake CMakeFiles\3.25.2\CMakeCXXCompiler.cmake CMakeFiles\3.25.2\CMakeRCCompiler.cmake CMakeFiles\3.25.2\CMakeSystem.cmake: phony
 
 
 #############################################
